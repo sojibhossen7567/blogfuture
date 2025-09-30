@@ -6,4 +6,5 @@ Disallow: /cart/
 Disallow: /checkout/
 Allow: /
 
-Sitemap: https://beastgiftcard.com/sitemap.xml
+Sitemap: https://futureall.xyz/sitemap.xml
+
