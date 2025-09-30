@@ -3,29 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About FutureAll | AI Hustle Blog</title>
-  <meta name="description" content="Learn more about FutureAll and our mission to provide insights on AI, side hustles, and the future of work.">
+  <title>About Us | AI Hustle Blog</title>
+  <meta name="description" content="Learn more about AI Hustle Blog — our mission, what we do, and how we help creators and freelancers succeed with AI tools and side hustles.">
   <meta name="author" content="AI Hustle Blog Team">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="About FutureAll | AI Hustle Blog">
-  <meta property="og:description" content="Learn more about FutureAll and our mission to provide insights on AI, side hustles, and the future of work.">
-  <meta property="og:image" content="images/logo.webp">
+  <meta property="og:title" content="About Us | AI Hustle Blog">
+  <meta property="og:description" content="Learn more about AI Hustle Blog — our mission, what we do, and how we help creators and freelancers succeed with AI tools and side hustles.">
+  <meta property="og:image" content="images/logo.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://futureall.xyz/about.html">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="About FutureAll | AI Hustle Blog">
-  <meta name="twitter:description" content="Learn more about FutureAll and our mission to provide insights on AI, side hustles, and the future of work.">
-  <meta name="twitter:image" content="images/logo.webp">
+  <meta name="twitter:title" content="About Us | AI Hustle Blog">
+  <meta name="twitter:description" content="Learn more about AI Hustle Blog — our mission, what we do, and how we help creators and freelancers succeed with AI tools and side hustles.">
+  <meta name="twitter:image" content="images/logo.png">
 
   <link rel="canonical" href="https://futureall.xyz/about.html">
-  <link rel="icon" type="image/png" href="images/New Project (2).webp">
-  
-  <!-- Same CSS as your other pages -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- WebPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "About Us",
+    "description": "About AI Hustle Blog — our mission, what we do, and how we help creators and freelancers succeed with AI tools and side hustles.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Hustle Blog",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://futureall.xyz/images/logo.png"
+      }
+    },
+    "url": "https://futureall.xyz/about.html"
+  }
+  </script>
+
   <style>
-    /* Keep your existing styles from the original page */
     body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; line-height:1.6; color:#333; }
     header { background:#fff; display:flex; justify-content:space-between; align-items:center; padding:15px 20px; box-shadow:0 2px 4px rgba(0,0,0,0.1); position:sticky; top:0; z-index:1000; }
     header img{ max-height:40px; }
@@ -35,6 +52,8 @@
     main{ max-width:900px; margin:40px auto; background:#fff; padding:30px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
     article h1{ font-size:2rem; color:#673ab7; margin-bottom:15px; }
     article p{ margin:15px 0; font-size:16px; line-height:1.8; color:#444; }
+    article h2{ margin-top:25px; color:#222; }
+    .meta{ font-size:14px; color:#777; margin-bottom:20px; }
     footer { background: linear-gradient(135deg,#1e1e1e,#2c2c2c); color:#fff; padding:50px 20px; font-family:Arial, sans-serif; }
     .footer-top { display:flex; flex-wrap:wrap; justify-content:space-between; max-width:1200px; margin:0 auto; gap:30px; }
     .footer-column { flex:1; min-width:220px; }
@@ -48,7 +67,7 @@
 </head>
 <body>
   <header>
-    <div class="logo"><a href="index.html"><img src="images/logo.webp" alt="AI Hustle Blog Logo"></a></div>
+    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="AI Hustle Blog Logo"></a></div>
     <nav aria-label="Main Navigation">
       <a href="index.html">Home</a>
       <a href="about.html" class="active">About</a>
@@ -58,9 +77,20 @@
 
   <main>
     <article>
-      <h1>About FutureAll</h1>
-      <p>Welcome to FutureAll! We are dedicated to sharing insightful articles, resources, and tools that help you stay ahead in technology, AI, and side hustles. Our mission is to provide accurate, valuable, and actionable information to our readers.</p>
-      <p>Our team works hard to create content that is informative, engaging, and easy to understand, so you can implement ideas quickly and grow your skills and income.</p>
+      <h1>About AI Hustle Blog</h1>
+      <p>Welcome to <strong>AI Hustle (FutureAll)</strong> — your guide to starting and scaling side hustles with the help of artificial intelligence. We believe AI should be practical, accessible, and empowering for everyone — not just big companies.</p>
+
+      <h2>Our Mission</h2>
+      <p>Our mission is to make AI tools simple to understand and easy to use for creators, freelancers, and entrepreneurs. Whether you want to boost productivity, automate tasks, or launch a new online business, we’ve got resources for you.</p>
+
+      <h2>What We Do</h2>
+      <p>We publish actionable guides, tutorials, and reviews of the best AI tools. Our focus is on showing you how to use them to save time, scale income, and build sustainable side hustles in 2025 and beyond.</p>
+
+      <h2>Who We Help</h2>
+      <p>Our content is built for freelancers, creators, students, and everyday people curious about AI. If you want to work smarter, not harder — you’re in the right place.</p>
+
+      <h2>Stay Connected</h2>
+      <p>Follow us for the latest updates, or get in touch through our <a href="contact.html">Contact page</a>. Together, let’s explore the future of work powered by AI.</p>
     </article>
   </main>
 
@@ -88,6 +118,17 @@
       <p>© 2025 AI Hustle Blog. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Minimal JS Security Script -->
+  <script>
+    document.addEventListener("contextmenu", function(e){ e.preventDefault(); });
+    document.addEventListener("keydown", function(e){
+      if(
+        e.key === "F12" || 
+        (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key)) || 
+        (e.ctrlKey && e.key === "u")
+      ){ e.preventDefault(); }
+    });
+  </script>
 </body>
 </html>
-<!-- about.html demo file -->
