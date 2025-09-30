@@ -1,31 +1,48 @@
-<!-- contact.html demo file -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact FutureAll | AI Hustle Blog</title>
-  <meta name="description" content="Get in touch with FutureAll. Send your questions, feedback, or suggestions and we will respond promptly.">
+  <title>Contact Us | AI Hustle Blog</title>
+  <meta name="description" content="Get in touch with the AI Hustle Blog team. Contact us for questions, collaborations, or sponsorship opportunities.">
   <meta name="author" content="AI Hustle Blog Team">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Contact FutureAll | AI Hustle Blog">
-  <meta property="og:description" content="Get in touch with FutureAll. Send your questions, feedback, or suggestions and we will respond promptly.">
-  <meta property="og:image" content="images/logo.webp">
+  <meta property="og:title" content="Contact Us | AI Hustle Blog">
+  <meta property="og:description" content="Get in touch with the AI Hustle Blog team. Contact us for questions, collaborations, or sponsorship opportunities.">
+  <meta property="og:image" content="images/logo.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://futureall.xyz/contact.html">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Contact FutureAll | AI Hustle Blog">
-  <meta name="twitter:description" content="Get in touch with FutureAll. Send your questions, feedback, or suggestions and we will respond promptly.">
-  <meta name="twitter:image" content="images/logo.webp">
+  <meta name="twitter:title" content="Contact Us | AI Hustle Blog">
+  <meta name="twitter:description" content="Get in touch with the AI Hustle Blog team. Contact us for questions, collaborations, or sponsorship opportunities.">
+  <meta name="twitter:image" content="images/logo.png">
 
   <link rel="canonical" href="https://futureall.xyz/contact.html">
-  <link rel="icon" type="image/png" href="images/New Project (2).webp">
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- WebPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Us",
+    "description": "Contact AI Hustle Blog team for general inquiries, partnerships, or support.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Hustle Blog",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://futureall.xyz/images/logo.png"
+      }
+    },
+    "url": "https://futureall.xyz/contact.html"
+  }
+  </script>
 
   <style>
-    /* Same CSS as About page */
     body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; line-height:1.6; color:#333; }
     header { background:#fff; display:flex; justify-content:space-between; align-items:center; padding:15px 20px; box-shadow:0 2px 4px rgba(0,0,0,0.1); position:sticky; top:0; z-index:1000; }
     header img{ max-height:40px; }
@@ -35,6 +52,12 @@
     main{ max-width:900px; margin:40px auto; background:#fff; padding:30px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
     article h1{ font-size:2rem; color:#673ab7; margin-bottom:15px; }
     article p{ margin:15px 0; font-size:16px; line-height:1.8; color:#444; }
+    form{ margin-top:20px; }
+    label{ display:block; margin:12px 0 6px; font-weight:bold; }
+    input, textarea{ width:100%; padding:10px; border:1px solid #ccc; border-radius:6px; font-size:15px; }
+    textarea{ resize:vertical; min-height:120px; }
+    button{ margin-top:15px; padding:12px 20px; border:none; background:#673ab7; color:#fff; font-size:16px; font-weight:bold; border-radius:6px; cursor:pointer; transition:0.3s; }
+    button:hover{ background:#542f9c; }
     footer { background: linear-gradient(135deg,#1e1e1e,#2c2c2c); color:#fff; padding:50px 20px; font-family:Arial, sans-serif; }
     .footer-top { display:flex; flex-wrap:wrap; justify-content:space-between; max-width:1200px; margin:0 auto; gap:30px; }
     .footer-column { flex:1; min-width:220px; }
@@ -48,7 +71,7 @@
 </head>
 <body>
   <header>
-    <div class="logo"><a href="index.html"><img src="images/logo.webp" alt="AI Hustle Blog Logo"></a></div>
+    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="AI Hustle Blog Logo"></a></div>
     <nav aria-label="Main Navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -58,11 +81,33 @@
 
   <main>
     <article>
-      <h1>Contact FutureAll</h1>
-      <p>If you have any questions, feedback, or suggestions, feel free to reach out to us. We’ll respond as quickly as possible.</p>
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Whether you have a question, a collaboration idea, or want to sponsor our content, feel free to reach out.</p>
+      
+      <h2>Email</h2>
+      <p>General inquiries: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+      <p>Partnerships & Sponsorships: <a href="mailto:partners@example.com">partners@example.com</a></p>
+
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <h2>Social Media</h2>
+      <p>Follow us for updates:</p>
       <ul>
-        <li>Email: <a href="mailto:info@futureall.xyz">info@futureall.xyz</a></li>
-        <li>Website: <a href="https://futureall.xyz/">https://futureall.xyz/</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
+        <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
       </ul>
     </article>
   </main>
@@ -91,5 +136,17 @@
       <p>© 2025 AI Hustle Blog. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Minimal JS Security Script -->
+  <script>
+    document.addEventListener("contextmenu", function(e){ e.preventDefault(); });
+    document.addEventListener("keydown", function(e){
+      if(
+        e.key === "F12" || 
+        (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key)) || 
+        (e.ctrlKey && e.key === "u")
+      ){ e.preventDefault(); }
+    });
+  </script>
 </body>
 </html>
