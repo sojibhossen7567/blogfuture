@@ -1,10 +1,4 @@
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /cart/
-Disallow: /checkout/
 Allow: /
 
 Sitemap: https://futureall.xyz/sitemap.xml
-
