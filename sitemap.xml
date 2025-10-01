@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://futureall.xyz/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>daily</changefreq>
     <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
+  <url>
+    <loc>https://futureall.xyz/about.html</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://futureall.xyz/contact.html</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://futureall.xyz/privacy.html</loc>
+    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://futureall.xyz/terms.html</loc>
+    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://futureall.xyz/disclaimer.html</loc>
+    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
 </urlset>
-
-
